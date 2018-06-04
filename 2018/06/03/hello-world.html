@@ -126,24 +126,21 @@
 </nav>
 
   
+<div id="val-comment"></div>
 </article>
-
-  <div id="gitment-comments">
-  </div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <script>
-  var gitment = new Gitment({
-    // 根据文章标题设置唯一评论id
-    id: document.location.href,
-    owner: 'canfengyy',
-    repo: 'canfengyy.github.io',
-    oauth: {
-      client_id: '739efb4aef717d4fb8da',
-      client_secret: '84c4b7b631cf321193e37b3879ca7052e7206ae9',
-    },
-  })
-  gitment.render('gitment-comments')
+new Valine({
+    el: '#val-comment' ,
+    notify:false, 
+    verify:false, 
+    appId: 'hf7kzRR6aP7r25jUbiSC79TA-gzGzoHsz',
+    appKey: '58S01aG2d33S6AnmGaPiaEXC',
+    placeholder: 'write something',
+    path:window.location.pathname, 
+    avatar:'mm' 
+});
 </script>
 </section>
         
