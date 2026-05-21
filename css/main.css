@@ -180,16 +180,16 @@ th {
   padding: 0;
 }
 ::selection {
-  background: #262a30;
+  background: #1d1d1f;
   color: #fff;
 }
 body {
   position: relative;
-  font-family: Helvetica, "Microsoft YaHei", Verdana, sans-serif;
-  font-size: 16px;
-  line-height: 2;
-  color: #555;
-  background: #f5f7f9;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #1d1d1f;
+  background: #ffffff;
 }
 @media (max-width: 767px) {
   body {
@@ -203,7 +203,7 @@ body {
 }
 @media (min-width: 1600px) {
   body {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 h1,
@@ -238,7 +238,7 @@ h2 {
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 16px;
+    font-size: 17px;
   }
 }
 h3 {
@@ -250,7 +250,7 @@ h3 {
   }
 }
 h4 {
-  font-size: 16px;
+  font-size: 17px;
 }
 @media (max-width: 767px) {
   h4 {
@@ -277,7 +277,7 @@ p {
   margin: 0 0 20px 0;
 }
 a {
-  color: #555;
+  color: #1d1d1f;
   text-decoration: none;
   outline: none;
   border-bottom: 1px solid #999;
@@ -498,7 +498,7 @@ code {
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #1d1d1f;
   background: #eee;
   border-radius: 3px;
   font-size: 13px;
@@ -921,7 +921,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab.active a {
   cursor: default;
-  color: #555;
+  color: #1d1d1f;
 }
 .post-body .tabs .tab-content {
   background-color: #fff;
@@ -940,7 +940,7 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 20px;
   font-size: 14px;
-  color: #555;
+  color: #1d1d1f;
   background: #fff;
   border: 2px solid #555;
   text-decoration: none;
@@ -949,7 +949,7 @@ pre .javascript .function {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-  line-height: 2;
+  line-height: 1.6;
 }
 .btn:hover {
   border-color: #222;
@@ -1238,14 +1238,14 @@ pre .javascript .function {
 .post-body .figure .caption {
   margin: -20px auto 15px;
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   color: #999;
   font-weight: bold;
   line-height: 1;
 }
 .post-sticky-flag {
   display: inline-block;
-  font-size: 16px;
+  font-size: 17px;
   -ms-transform: rotate(30deg);
   -webkit-transform: rotate(30deg);
   -moz-transform: rotate(30deg);
@@ -1435,7 +1435,7 @@ pre .javascript .function {
 }
 .posts-collapse .post-title {
   margin-left: 60px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: normal;
   line-height: inherit;
 }
@@ -1461,7 +1461,7 @@ pre .javascript .function {
 .posts-expand .post-title-link {
   display: inline-block;
   position: relative;
-  color: #555;
+  color: #1d1d1f;
   border-bottom: none;
   line-height: 1.2;
   vertical-align: top;
@@ -1493,7 +1493,7 @@ pre .javascript .function {
   transform: scaleX(1);
 }
 .posts-expand .post-title-link .fa {
-  font-size: 16px;
+  font-size: 17px;
 }
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
@@ -1578,7 +1578,7 @@ pre .javascript .function {
   display: block;
   line-height: 25px;
   font-size: 14px;
-  color: #555;
+  color: #1d1d1f;
   border-bottom: none;
 }
 .post-nav-item a:hover {
@@ -1672,7 +1672,7 @@ pre .javascript .function {
 }
 .sidebar a {
   color: #999;
-  border-bottom-color: #555;
+  border-bottom-color: #1d1d1f;
 }
 .sidebar a:hover {
   color: #eee;
@@ -1777,7 +1777,7 @@ pre .javascript .function {
   text-align: center;
   color: inherit;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 17px;
 }
 .site-state-item-name {
   font-size: 13px;
@@ -1812,7 +1812,7 @@ pre .javascript .function {
   vertical-align: middle;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-bottom-color: #555;
+  border-bottom-color: #1d1d1f;
   font-size: 13px;
 }
 .links-of-author a:before {
@@ -1858,7 +1858,7 @@ pre .javascript .function {
   cursor: pointer;
   border-bottom: 1px solid transparent;
   font-size: 14px;
-  color: #555;
+  color: #1d1d1f;
 }
 .sidebar-nav li:hover {
   color: #fc6423;
@@ -1976,7 +1976,7 @@ pre .javascript .function {
   display: inline-block;
 }
 .theme-next #ds-thread #ds-reset {
-  color: #555;
+  color: #1d1d1f;
 }
 .theme-next #ds-thread #ds-reset .ds-replybox {
   margin-bottom: 30px;
@@ -2279,7 +2279,7 @@ pre .javascript .function {
 }
 .local-search-popup a.search-result-title {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
 }
 .local-search-popup .search-keyword {
   border-bottom: 1px dashed #f00;
@@ -2701,7 +2701,7 @@ pre .javascript .function {
   float: left;
   margin-top: 300px;
   width: 240px;
-  background: #f5f7f9;
+  background: #ffffff;
   box-shadow: none;
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -2857,7 +2857,7 @@ pre .javascript .function {
 .sidebar-inner {
   box-sizing: border-box;
   width: 240px;
-  color: #555;
+  color: #1d1d1f;
   background: #fff;
   box-shadow: initial;
   border-radius: initial;
@@ -2882,7 +2882,7 @@ pre .javascript .function {
   clear: both;
 }
 .sidebar a {
-  color: #555;
+  color: #1d1d1f;
 }
 .sidebar a:hover {
   color: #222;
@@ -2944,7 +2944,7 @@ pre .javascript .function {
 }
 .links-of-author-item .fa {
   margin-right: 2px;
-  font-size: 16px;
+  font-size: 17px;
 }
 .links-of-author-item .fa-globe {
   font-size: 15px;
