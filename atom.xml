@@ -6,7 +6,15 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.dig-io.com/"/>
-  <updated>2018-06-03T16:21:16.301Z</updated>
+<updated>2026-05-21T06:50:00.000Z</updated>
+  <entry>
+    <title>探索 OpenHands：开源 AI 软件开发代理平台</title>
+    <link href="http://blog.dig-io.com/2026/05/21/openhands-intro.html"/>
+    <id>http://blog.dig-io.com/2026/05/21/openhands-intro.html</id>
+    <published>2026-05-21T06:50:00.000Z</published>
+    <updated>2026-05-21T06:50:00.000Z</updated>
+    <content type="html"><![CDATA[<p>在人工智能快速发展的今天，软件开发领域正在经历一场深刻的变革。传统的 AI 辅助编码工具通常只能提供代码建议，而 <strong>OpenHands</strong> 作为一款开创性的开源平台，让 AI 能够<strong>真正执行工程任务</strong>，而不仅仅是提供建议。</p>]]></content>
+  </entry>
   <id>http://blog.dig-io.com/</id>
   
   <author>
